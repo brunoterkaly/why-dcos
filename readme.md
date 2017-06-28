@@ -32,8 +32,11 @@ The DC/OS Universe service catalog also includes:
 
 # How packages can save operators time, effort and expense
 
-Universe Packages dramatically simplify what otherwise be a complex installation deployment in a cluster. 
+Universe Packages dramatically simplify what otherwise be a complex installation deployment in a cluster. There is some significant knowledge required for deploying into a DC/OS cluster. Universe Packages have an understanding of the functional orchestration capabilities, as seen below: 
 
+![](./images/snap0002.png)
+
+### Some additional areas where Universe Packages automatically include:
 
 - **Installation Notes** - To begin, they provide preInstallNotes, which gives the user information they’ll need before starting the installation process. For example, you could explain what the resource requirements are for the service, such as "Unicorns take 7 nodes with 1 core each and 1TB of ram." There are also postInstallNotes.
 - **Log Management** - Logs and metrics typically come from several places, making it hard to troubleshoot and isolate problems. DC/OS gives operators a comprehensive view into the health of the application and cluster. The logs and metrics can be easily integrated into existing monitoring tools (e.g., Spunk, ELK, Datadog, Prometheus or custom-developed monitoring tools).
