@@ -42,7 +42,10 @@ Universe Packages dramatically simplify what otherwise be a complex installation
 
 # Simple Examples Of How These Packages Can Save Operators Significant Time
 
-To drive the point home about time savings, imagine the steps needed to deploy some of the better known packages seen below:
+To drive the point home about time savings, imagine the steps needed to deploy some of the better known packages seen below. You can see that with the help of Universe Packages, significant savings are available:
+
+![](./images/snap0001.png)
+
 
 
 - **Cassandra** – Like many software packages it is necessary to first install Java 8. Of course, the Universe Package takes care of this. In addition, setting up the path, running Cassandra as a service, checking the status of Cassandra to verify uptime and health. Setting up the seeds (list of IP addresses), indicating the storage port, the listen address and the transport port are all tasks that need to be setup.
