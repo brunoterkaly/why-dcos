@@ -47,3 +47,114 @@ DC/OS offers powerful support for important workloads. First, is significant sup
 
 # Appendix A - The complete list of Universe Packages
 
+<table style="float: none; border-bottom: #b4b4b4 1px solid; text-align: left; border-left : #b4b4b4 1px solid; border-collapse: collapse; 
+              font-family: Calibri, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #000000; border-top: medium none; 
+			  border-right: #b4b4b4 1px solid;"><tr style="background-color:rgb(242,247,247); vertical-align: top"><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		alluxio-enterprise</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		confluent-replicator</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		koding</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		openldap</td></tr><tr style="background-color: rgb(216,223,230); vertical-align: top"><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		arangodb</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		confluent-schema-registry</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		kong</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		openldap-admin</td></tr><tr style="background-color:rgb(242,247,247); vertical-align: top"><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		arangodb3</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		crate</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		linkerd</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		openvpn</td></tr><tr style="background-color: rgb(216,223,230); vertical-align: top"><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		artifactory</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		datadog</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		linkerd-viz</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		openvpn-admin</td></tr><tr style="background-color:rgb(242,247,247); vertical-align: top"><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		artifactory-lb</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		DC/OS-enterprise-cli</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		logstash</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		portworx</td></tr><tr style="background-color: rgb(216,223,230); vertical-align: top"><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		avi</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		dynatrace</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		marathon</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		postgresql</td></tr><tr style="background-color:rgb(242,247,247); vertical-align: top"><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		beta-cassandra</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		ecr-login</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		marathon-lb</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		postgresql-admin</td></tr><tr style="background-color: rgb(216,223,230); vertical-align: top"><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		beta-confluent-kafka</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		elastic</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		marathon-slack</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		quobyte</td></tr><tr style="background-color:rgb(242,247,247); vertical-align: top"><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		beta-dse</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		elasticsearch</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		mariadb</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		redis</td></tr><tr style="background-color: rgb(216,223,230); vertical-align: top"><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		beta-elastic</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		eremetic</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		memsql</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		registry</td></tr><tr style="background-color:rgb(242,247,247); vertical-align: top"><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		beta-hdfs</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		etcd</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		minio</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		riak</td></tr><tr style="background-color: rgb(216,223,230); vertical-align: top"><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		beta-kafka</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		exhibitor</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		mongodb</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		scale</td></tr><tr style="background-color:rgb(242,247,247); vertical-align: top"><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		beta-kibana</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		flink</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		mongodb-admin</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		spark</td></tr><tr style="background-color: rgb(216,223,230); vertical-align: top"><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		bitbucket</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		geoserver</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		mongodb-replicaset</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		spark-history</td></tr><tr style="background-color:rgb(242,247,247); vertical-align: top"><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		bookkeeper</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		gestalt-framework</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		mr-redis</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		spark-notebook</td></tr><tr style="background-color: rgb(216,223,230); vertical-align: top"><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		cadvisor</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		gitlab</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		msoms</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		spark-shuffle</td></tr><tr style="background-color:rgb(242,247,247); vertical-align: top"><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		calico</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		grafana</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		mysql</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		spark-thrift-server</td></tr><tr style="background-color: rgb(216,223,230); vertical-align: top"><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		cassandra</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		hdfs</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		mysql-admin</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		sqlserver</td></tr><tr style="background-color:rgb(242,247,247); vertical-align: top"><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		ceph</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		hello-world</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		namerd</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		storm</td></tr><tr style="background-color: rgb(216,223,230); vertical-align: top"><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		ceph-dash</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		httpbin</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		neo4j</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		sysdig-cloud</td></tr><tr style="background-color:rgb(242,247,247); vertical-align: top"><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		chronos</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		hue</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		neo4j-proxy</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		tunnel-cli</td></tr><tr style="background-color: rgb(216,223,230); vertical-align: top"><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		clair</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		influxdb</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		neo4j-replica</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		vamp</td></tr><tr style="background-color:rgb(242,247,247); vertical-align: top"><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		concord</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		instana-agent</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		netsil</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		weavescope</td></tr><tr style="background-color: rgb(216,223,230); vertical-align: top"><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		confluent-connect</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		jenkins</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		netsil-collectors</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		weavescope-probe</td></tr><tr style="background-color:rgb(242,247,247); vertical-align: top"><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		confluent-control-center</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		kafka</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		nexus</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		wordpress</td></tr><tr style="background-color: rgb(216,223,230); vertical-align: top"><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		confluent-kafka</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		kafka-manager</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		nginx</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		zeppelin</td></tr><tr style="background-color:rgb(242,247,247); vertical-align: top"><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		confluent-replicator</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		kibana</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		nifi</td><td style="padding: 5px 10px; border-left: 1px solid #b4b4b4;  border-top: 1px solid #b4b4b4;">
+		</td></tr></table>
