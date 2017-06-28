@@ -1,23 +1,28 @@
-# Mesosphere’s DC/OS – A Powerful Orchestrator
+# Why Mesosphere’s DC/OS – Universe Packages
 
-There are a variety of orchestrators available to manage containerized workloads. DC/OS has some distinct capabilities that set it apart from other orchestrators. One of the capabilities is to easily deploy well-known software applications and frameworks into a DC/OS cluster. 
+Universal packages on DC/OS dramatically simplify the process of setting up and deploying well known open source software packages, such as Cassandra, Jenkins, Couchbase, MySQL, ElasticSearch – just to name a few. These packages make it possible for cluster operators to get up and running in minutes, instead of hours, even days in some cases.
+
+Without Universe Packages, operators would need to understand the intricate details of each package they would like to install. No two software packages or frameworks is the same when it comes to configuration, so it quickly becomes a daunting task to install a package like Jenkins. Often times, even the documentation/instructions provided by the software authors are missing or incomplete. Adding to the complexity is the fact that the software needs to run within the DC/OS cluster itself, which means the operator must understand not just the software to install, but also the way it needs to interoperate inside the cluster.
+
+Mesosphere engineers have brought years of experience to Universe Packages, insulating operators for the complexities of cluster deployments.
+
 
 # Universe Packages
 
-The Universe is a DC/OS package repository that contains services like Spark, Cassandra, Jenkins, and many others. It allows users to install these services with a single click from the DC/OS UI or by a simple DC/OS package install package name command from the DC/OS CLI. Universe Packages give companies across industries a broad toolset to accelerate time to market and the ability to run modern data-driven applications reliably.
+The most popular and most powerful packages are available to cluster operators. Such packages as Spark, Cassandra, Jenkins, and many others are availabe for immediate use. With just a simple click gives companies across industries a broad toolset to accelerate time to market and the ability to run modern data-driven applications reliably.
 
- 
-- **There Are Several Ways To Deploy Your Service Into DC/OS** - (1) use DC/OS marathon command in CLI; (2) use Marathon REST API directly; (3) deploy your service as a package. Using package approach makes your solution consistent with the environment and gives other benefits.
-- **Mesosphere DC/OS Universe** – The main value proposition of Universe packages is that they make it effortless to deploy popular and powerful OSS on a DC/OS cluster. 
-- **Curated Software** – The beauty of these packages is that they have been curated by Mesosphere, who has taken the time to leverage best practices for a particular software package, as well as thinking about how it can interoperate in the context of a DC/OS cluster.
+ - Curated Software – The beauty of these packages is that they have been curated by Mesosphere, who has taken the time to leverage best practices for a particular software package, as well as thinking about how it can interoperate in the context of a DC/OS cluster.
+ - The Complete List - You can find a complete list here: http://universe.DC/OS.io/#/packages, as well as Appendix A.
 
 The Complete List You can find a complete list here: http://universe.DC/OS.io/#/packages, as well as **Appendix A**.
 
 # Partner SDKs
 
-Mesosphere also provides a Partner SDK, allowing partners to easily integrate their technologies with DC/OS. It includes a complete SRE (site reliability engineering) best practices implemented in code. Entire data services ecosystems — such as distributed databases, message queues, caches and analytics technologies — can quickly be integrated with DC/OS. These services can then be installed in seconds for fast and reliable implementations. The packages include proven DC/OS capabilities like automatic failure detection and recovery.	
+But that isn’t all. Mesosphere also provides a Partner SDK, allowing ISVs to easily integrate their technologies with DC/OS. It includes a complete SRE (site reliability engineering) best practices implemented in code. Entire data services ecosystems — such as distributed databases, message queues, caches and analytics technologies — can quickly be integrated with DC/OS. These services can then be installed in seconds for fast and reliable implementations. The packages include proven DC/OS capabilities like automatic failure detection and recovery. Again, without these packages cluster operators could spend days performing a correct installation and configuration. There are many dark corners that could be answered only with tribal knowledge of such systems. But with Universal Packages (uncluding the Partner SDK) days of deploying and testing is reduced to just a few mouse clicks.
 
-The DC/OS Universe service catalog includes:
+## Some Recent Additions
+
+The DC/OS Universe service catalog also includes:
 
 - **Alluxio** for high-speed distributed storage access .
 - **Couchbase** high-performance and scalable NoSQL database .
@@ -25,18 +30,20 @@ The DC/OS Universe service catalog includes:
 - **Elastic Stack** (Elasticsearch, Logstash, Kibana) for analytics and data insights .
 - **Redis** in-memory data structure store for high-performance analytics use cases.
 
-# What a package provides
+# How packages can save operators time, effort and expense
 
 Universe Packages dramatically simplify what otherwise be a complex installation deployment in a cluster. 
+
 
 - **Installation Notes** - To begin, they provide preInstallNotes, which gives the user information they’ll need before starting the installation process. For example, you could explain what the resource requirements are for the service, such as "Unicorns take 7 nodes with 1 core each and 1TB of ram." There are also postInstallNotes.
 - **Log Management** - Logs and metrics typically come from several places, making it hard to troubleshoot and isolate problems. DC/OS gives operators a comprehensive view into the health of the application and cluster. The logs and metrics can be easily integrated into existing monitoring tools (e.g., Spunk, ELK, Datadog, Prometheus or custom-developed monitoring tools).
 - **Security And Compliance** - Are key concerns for enterprises, especially in the context of new technologies such as Docker containers. DC/OS can lower risk by controlling access to applications and services. In addition, it is possible for operators to determine which users have access to debugging and associated apps while limiting access to the underlying infrastructure. In addition, Mesosphere DC/OS has been independently audited for compliance with NIST, ISO, FISMA, OSC and HIPPA certifications.
 - **Built In GPU Support** - Gpu-based scheduling on DC/OS means that GPU-enabled hardware can be pooled with the rest of the infrastructure for highest overall utilization, but also be reserved for machine-learning workloads for maximum performance. With GPU acceleration, neural net training can be 10-20 faster than with CPUs. DC/OS now allows you to isolate and reserve GPU resources for the workloads that need them, but also pool these GPU-enabled resources with the rest of the infrastructure for higher overall utilization.
 
-# Universe Package Examples
+# Simple Examples Of How These Packages Can Save Operators Significant Time
 
-To drive this point home, imagine the steps needed to deploy some of the better known packages.
+To drive the point home about time savings, imagine the steps needed to deploy some of the better known packages seen below:
+
 
 - **Cassandra** – Like many software packages it is necessary to first install Java 8. Of course, the Universe Package takes care of this. In addition, setting up the path, running Cassandra as a service, checking the status of Cassandra to verify uptime and health. Setting up the seeds (list of IP addresses), indicating the storage port, the listen address and the transport port are all tasks that need to be setup.
 - **Jenkins** – Run your continuous integration, automated testing, and continuous delivery jobs for workloads in a DC/OS cluster. If you were to deploy Jenkins by hand, a significant amount of know how is required. For example, you would need to manually pre-configure autoscale build agents, making it possible for DC/OS to create and destroy agents as demand increases and decreases. You would also need to leverage Nginx as a reverse proxy that rewrites the URIs into the absolute paths that Jenkins requires. More complex work involves setting up Canary deployments, which is a pattern for rolling out releases to a subset of DC/OS nodes, allowing you to test your deployment on a small set of nodes before releasing more widely to production. Finally, the Job DSL plugin allows for jobs to be scripted and templated, allowing entire pipelines to be defined within code rather than manually.
