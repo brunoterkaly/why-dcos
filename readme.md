@@ -9,12 +9,38 @@ Mesosphere engineers have brought years of experience to Universe Packages, insu
 
 # Universe Packages
 
+
 The most popular and most powerful packages are available to cluster operators. Such packages as Spark, Cassandra, Jenkins, and many others are availabe for immediate use. With just a simple click gives companies across industries a broad toolset to accelerate time to market and the ability to run modern data-driven applications reliably.
 
- - Curated Software – The beauty of these packages is that they have been curated by Mesosphere, who has taken the time to leverage best practices for a particular software package, as well as thinking about how it can interoperate in the context of a DC/OS cluster.
+ - Curated Software – The beauty of these packages is that they have been curated by Mesosphere, who has taken the time to leverage best practices for a particular software package, as well as thinking about how it can inter operate in the context of a DC/OS cluster.
  - The Complete List - You can find a complete list here: http://universe.DC/OS.io/#/packages, as well as Appendix A.
 
 The Complete List You can find a complete list here: http://universe.DC/OS.io/#/packages, as well as **Appendix A**.
+
+# Cassandra as an Example
+
+Just take Apache Cassandra is a great example of what the Universe Packages provide.
+
+The link below provides all the terrific details about what a Universe Package can provide.
+
+
+https://docs.google.com/document/d/1PX0APGMh5vmAQx2QfwTuVJ6uNDWT4G0XVCzRcKkVBZw/edit#
+
+
+### Amazing Capabilities - all built in
+
+- Installation
+- Scaling
+- Backup and failure recovery
+- Management
+- Multi-Data Center replication
+- In-place upgrades
+
+Even one of the features you see listed above can take you all day to figure out and configure, such as the ability to replicate across multiple data centers, identifying seed nodes, and more. Other capabilities include a commandline interface that allows you to scale out the Cassandra cluster with additional notes, using a commandline interface and suffering no downtime at all. No other orchestrator offers this level of integration and power.
+
+
+
+
 
 # Partner SDKs
 
